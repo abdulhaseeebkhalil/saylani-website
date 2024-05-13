@@ -1,23 +1,79 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.navbar {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-bottom: .5rem;
-    padding-top: .5rem;
-    position: relative;
-    align-content: stretch;
+#navbarNavAltMarkup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  position: relative;
+  align-content: stretch;
+  margin-right: 15px;
 }
-.navbar-nav {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    margin-bottom: 0;
-    padding-left: 0;
+
+.nav-link {
+  margin-right: 15px;
+}
+
+.btn {
+  margin-right: 15px;
+  width: 150px;
+}
+
+.green-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 150px;
+  color: aliceblue;
+  background-color: #8dc63f;
+  border: 1px solid blue;
+}
+
+.theme_container {
+  padding: 0 10px;
+  margin: 10px auto;
+}
+
+.left {
+  margin-top: 100px;
+  width: 600px;
+  grid-row: auto;
+}
+
+.textf {
+  font-size: 50px;
+  font: Poppins-Regular;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46.74px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.green-color {
+  color: #8dc63f;
+}
+
+.right img {
+  margin-right: 20px;
+}
+
+.card {
+  margin: 0 110px;
+  padding: 10px;
+  display: inline-block;
+  text-align: start;
+  vertical-align: top;
+  /* width: 100%; */
+}
+
+.card-body{
+    background-color: #F0FCDB;
+}
+
+.card .Genrale{
+    border: 2px solid black;
 }
