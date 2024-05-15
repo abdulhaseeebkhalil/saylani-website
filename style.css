@@ -68,12 +68,141 @@
   text-align: start;
   vertical-align: top;
   /* width: 100%; */
+  padding: 35px 10px;
 }
 
-.card-body{
-    background-color: #F0FCDB;
+.card .Genrale {
+  border: 2px solid black;
 }
 
-.card .Genrale{
-    border: 2px solid black;
+.toolbar {
+  justify-content: space-between;
+  display: flex;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+.toolbar input {
+  height: 50px;
+  border-radius: 10px;
+}
+.toolbar-button {
+  margin-right: 10px;
+  display: inline;
+  background-color: #fbfbfb;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  height: 50px;
+}
+
+.toolbar-button1 {
+  background-color: #8dc63f;
+}
+
+.toolbar span {
+  height: 50px;
+  border-radius: 2px solid black;
+}
+
+.toolbar-button:hover {
+  background-color: #eee;
+}
+
+.cardsmanu {
+  padding-left: 15%;
+  margin-top: 15%;
+  width: 600px;
+  height: 300px;
+  background-color: black;
+}
+
+.home_services {
+  margin: 50px;
+}
+.itr {
+  direction: ltr;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: inline-block;
+  flex-wrap: wrap;
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-top: calc(var(--bs-gutter-y) * -1);
+}
+
+.service_box .service_icon img {
+  height: 70px;
+  object-fit: contain;
+  width: 70px;
+}
+
+.home_services_heading {
+  text-align: center;
+}
+
+.service_box {
+  background-color: rgba(182, 239, 73, 0.2);
+  border-radius: 10px;
+  color: #424242;
+  cursor: default;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 1.5s ease-out;
+}
+
+.service_box .service_text {
+  color: inherit;
+  margin-top: 10px;
+}
+.itr {
+  direction: ltr;
+}
+
+.upcoming_projects {
+  margin-top: 50px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-top: calc(var(--bs-gutter-y) * -1);
+}
+.upcoming_picture_box {
+  position: relative;
+  width: 100%;
+}
+
+.upcoming_picture_box img {
+  border-top-left-radius: 100px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+  height: 100%;
+  margin-bottom: 20px;
+  object-fit: cover;
+  width: 100%;
+}
+
+#headings {
+  margin-left: 15px;
+  list-style-type: none;
+}
+
+#headings li {
+  display: inline-block;
+}
+
+#headings li h4 {
+  margin: 0 0 8px;
+  text-decoration: none;
+  color: #0d6db7 !important;
 }
