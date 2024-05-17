@@ -1,30 +1,9 @@
-.services_counter {
-  background-color: #0d6db7;
-  left: 0;
-  padding-bottom: 100px;
-  padding-top: 100px;
-  position: absolute;
-  position: relative;
-  width: 100%;
+body {
+  font-family: Poppins-Regular !important;
 }
 
-.services_counter:before {
-  background-image: url(../images/upcoming_background.png);
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  content: " ";
-  display: block;
-  height: 100%;
-  left: 0;
-  opacity: 0.2;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.container {
-  width: 100%;
+.itr {
+  direction: ltr;
 }
 
 .row {
@@ -37,38 +16,160 @@
   margin-top: calc(var(--bs-gutter-y) * -1);
 }
 
-.justify-content-center {
-  justify-content: center !important;
+.col {
+  flex: 1 0;
 }
 
-.counter_image,
-.counter_single {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.counter_image {
-  background-color: #fff;
-  border-radius: 60px;
-  height: 120px;
-  justify-content: center;
-  margin-bottom: 20px;
-  width: 120px;
-}
-
-.counter_image img {
-  height: 50%;
-  object-fit: contain;
-  width: 50%;
-}
-
-.counter_heading {
-  margin-bottom: 20px;
+.testimonials_heading {
   text-align: center;
 }
 
-.counter_heading h2,
-.counter_heading span {
-  color: #fff !important;
+.testimonials_heading {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.testimonials_heading span {
+  color: #8dc63f;
+}
+
+.ant-typography {
+  color: rgba(0, 0, 0, 0.85);
+  word-break: break-word;
+}
+
+.testimonial_head {
+  font-size: 16px !important;
+}
+
+.testimonials_heading h2 {
+  margin: 10px 0 0 !important;
+  font-weight: bolder;
+}
+
+.ant-carousel {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum";
+}
+
+.ant-carousel {
+  font-feature-settings: "tnum", "tnum";
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ant-carousel .slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  touch-action: pan-y;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.ant-carousel .slick-slider {
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  touch-action: pan-y;
+}
+
+.ant-carousel .slick-slider .slick-track,
+.ant-carousel .slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+  touch-action: pan-y;
+}
+
+.ant-carousel .slick-slider .slick-list,
+.ant-carousel .slick-slider .slick-track {
+  touch-action: pan-y;
+  transform: translateZ(0);
+}
+
+.ant-carousel .slick-list {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-list {
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+.ant-carousel .slick-slider .slick-track,
+.ant-carousel .slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+  touch-action: pan-y;
+}
+
+.ant-carousel .slick-slider .slick-list,
+.ant-carousel .slick-slider .slick-track {
+  touch-action: pan-y;
+  transform: translateZ(0);
+}
+
+.ant-carousel .slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.ant-carousel .slick-track {
+  display: block;
+  left: 0;
+  position: relative;
+  top: 0;
+}
+
+.ant-carousel .slick-track::before,
+.ant-carousel .slick-track::after {
+  display: table;
+  content: "";
+}
+
+.ant-carousel .slick-track:after,
+.ant-carousel .slick-track:before {
+  content: "";
+  display: table;
+}
+
+.ant-carousel .slick-track::after {
+  clear: both;
+}
+
+.ant-carousel .slick-track::before,
+.ant-carousel .slick-track::after {
+  display: table;
+  content: "";
+}
+
+.ant-carousel .slick-track:after {
+  clear: both;
+}
+
+.ant-carousel .slick-track:after,
+.ant-carousel .slick-track:before {
+  content: "";
+  display: table;
 }
